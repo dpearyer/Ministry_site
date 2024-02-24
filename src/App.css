@@ -1,0 +1,15 @@
+.App {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.nav ul li a > .active {
+  border-bottom: 1px solid #333;
+}
+
+.section-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}

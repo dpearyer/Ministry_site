@@ -1,0 +1,135 @@
+.connect-section{
+    background-color: #F0E0C5;
+    color: white;
+}
+
+.c-container{
+    height: 900px;
+}
+
+.connect-container{
+    margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px; /* Adjust the maximum width as needed */
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem; /* Adjust the padding values as needed */
+  @media (min-width: 640px) {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    max-height: 95vh;
+  }
+
+  @media (min-width: 1024px) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+  }
+}
+
+.card-container{
+    position:relative;
+    bottom: 50px;
+}
+
+.saying-container{
+margin-left: auto;
+  margin-right: auto;
+  max-width: 32rem;
+  text-align: center;
+  align-items: center;
+
+}
+
+.saying{
+    font-size: 1.875rem; 
+  font-weight: bold;
+  bottom: 80px;
+  color: white;
+  border-bottom: solid 0.5px #a2762f;
+    width: fit-content;
+  left: 140px;
+}
+
+@media (min-width: 640px) {
+  .sm-text-4xl {
+    font-size: 2.25rem;
+  }
+
+}
+
+.connect-p{
+    margin-top: 1rem;
+    color: black;
+    bottom: 100px;
+position: relative;
+bottom: 70px;
+width: 100%;
+font-weight: 600px;
+font-size: 20px;
+}
+
+
+.card{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: 1fr;
+    gap: 0;
+    background-color: #ecc07b;
+    border-radius: 23px;
+   
+}
+
+.media-logos{
+    width: 20px;
+    height: 20px;
+}
+
+.pink-border{
+    display: block;
+  border-radius: 1.5rem; 
+  border: 1px solid darkgray;
+  padding: 2rem;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.1); 
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    border-color: white; 
+    box-shadow: 0 8px 28px 0 rgba(255, 105, 180, 0.1); 
+  }
+}
+
+.card-h2{
+    margin-top: 1rem;
+  font-size: 1.25rem; 
+  width: fit-content;
+  font-weight: bold;
+  color: rgb(52, 52, 53); 
+  text-decoration: none;
+  border-bottom: solid 0.5px ;
+}
+
+.card-p{
+    margin-top: 0.25rem;
+    font-size: 0.875rem; 
+    color: white;
+   text-decoration: none;
+   font-weight: 600px;
+    font-size: 20px;
+}
+
+.saying-p{
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    top:150px;
+}
+
+.card a{
+    text-decoration: none;
+}

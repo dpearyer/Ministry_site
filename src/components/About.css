@@ -1,0 +1,140 @@
+.container{
+  width: 80%;
+  margin: 0 auto; /* Center the container */
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 100vh ;
+  padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 4rem;
+        padding-bottom: 10rem;
+        bottom: 50px;
+        max-height: 80vh;
+
+        @media (min-width: 640px) {
+          padding-left: 1.5rem;
+          padding-right: 1.5rem;
+          padding-top: 3rem;
+          padding-bottom: 6rem;
+        }
+      
+}
+
+.container h1{
+    font-family: "Rosarivo", cursive;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+  font-size: 55;
+  position: absolute;
+  top: 720px;
+  display: flex;
+  border-bottom: #D39D44 solid 1px;
+  text-align: center;
+}
+
+.profile-container{
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+
+.about-name{
+  font-size: 20px;
+  font-style: bold;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: rgb(116, 114, 114);
+}
+
+.profile-img{
+  width: 490px;
+  height: 349px;
+  border-radius: 10px;
+  }
+.container .mission-h{
+
+  position: absolute;
+  top: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: black;
+}
+
+.container .mission-h p{
+  display: flex;
+  position: relative;
+  top: 80px;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+
+
+h2,
+p {
+  position: relative;
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "XTRA" 468,
+    "YOPQ" 79,
+    "YTAS" 750,
+    "YTDE" -203,
+    "YTFI" 738,
+    "YTLC" 514,
+    "YTUC" 712;
+
+}
+
+
+
+.saying{
+  position: relative;
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "XTRA" 468,
+    "YOPQ" 79,
+    "YTAS" 750,
+    "YTDE" -203,
+    "YTFI" 738,
+    "YTLC" 514,
+    "YTUC" 712;
+
+
+}
+
+.container .mission-p{
+  width: 40%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 100px 0 0;
+  background-color: #F0E0C5;
+  padding: 20px 20px;
+  border-radius: 10px;
+  width: 490px;
+  font-size: 20px;
+  height: 349px;
+  position: relative;
+  right: 20px;
+}
+
