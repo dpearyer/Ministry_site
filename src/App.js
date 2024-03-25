@@ -7,7 +7,7 @@ import About from './components/pages/About';
 import Connect from './components/pages/Connect';
 import Contact from './components/pages/Contact';
 import Footer from './components/Footer';
-
+import Live from './components/pages/Live';
 function App() {
   return (
     <>
@@ -20,6 +20,7 @@ function App() {
           <Home/>
           <About/>
           <Connect/>
+          <Live/>
           </>} />
       
           <Route path="/contact" element={<Contact />} />

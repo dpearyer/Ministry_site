@@ -15,7 +15,9 @@ const About = () => {
        </div>
        <div className='profile-container'>
        <div className='about-profile'>
-        <img src='/images/pfc_profile.jpg' alt='' className='profile-img'></img>
+        <div className='profile-pic-container'>
+        <img src='/images/pfc_pic.jpg' alt='' className='profile-img'></img>
+        </div>
        <h2 className='about-name'>Jeff Howard, Overseer-(380)710-3414<br/>
 Andrea Moreland- (912)308-6784<br/>
 Push for Christ International Ministries

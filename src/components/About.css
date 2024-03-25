@@ -6,20 +6,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  max-height: 100vh ;
+  max-height: 95vh ;
   padding-left: 2rem;
         padding-right: 2rem;
         padding-top: 4rem;
         padding-bottom: 10rem;
         bottom: 50px;
-        max-height: 80vh;
 
+        
         @media (min-width: 640px) {
           padding-left: 1.5rem;
           padding-right: 1.5rem;
           padding-top: 3rem;
           padding-bottom: 6rem;
         }
+      
+     
+
       
 }
 
@@ -30,7 +33,7 @@
   color: black;
   font-size: 55;
   position: absolute;
-  top: 720px;
+  top: 780px;
   display: flex;
   border-bottom: #D39D44 solid 1px;
   text-align: center;
@@ -50,10 +53,26 @@
   color: rgb(116, 114, 114);
 }
 
+.about-profile{
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+}
+
+.profile-pic-container{
+  align-items: center;
+  position: relative;
+  left: -30px;
+top: 50px;}
+
+
 .profile-img{
-  width: 490px;
-  height: 349px;
+  width: 380px;
+  height: 390px;
   border-radius: 10px;
+ 
   }
 .container .mission-h{
 
@@ -65,12 +84,14 @@
   color: black;
 }
 
-.container .mission-h p{
+.container .mission-p{
   display: flex;
   position: relative;
-  top: 80px;
+  top: 30px;
   text-align: center;
   font-size: 30px;
+  left: -50px;
+  
 }
 
 
@@ -95,9 +116,20 @@ p {
     "YTLC" 514,
     "YTUC" 712;
 
+    @media (min-width: 640px) {
+      h2, p {
+        font-size: 1.25rem; /* 36px (adjust as needed) */
+      }
+  }
+
 }
 
-
+.about-name{
+  position: relative;
+  top: 30px;
+  font-size: 17px;
+  color: black;
+}
 
 .saying{
   position: relative;
@@ -135,6 +167,6 @@ p {
   font-size: 20px;
   height: 349px;
   position: relative;
-  right: 20px;
-}
 
+ 
+} 

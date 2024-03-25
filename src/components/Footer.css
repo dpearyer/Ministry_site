@@ -1,5 +1,7 @@
 .footer-container{
     background-color: white;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .footer-screen{
@@ -12,7 +14,8 @@
     padding-bottom: 1.5rem;
     padding-top: 4rem;
     padding-bottom: 4rem;
-
+    max-height: 80vh;
+    height: 80px;
     @media (min-width: 640px) {
         padding-left: 1.5rem;
         padding-right: 1.5rem;
@@ -22,6 +25,7 @@
         padding-left: 2rem;
         padding-right: 2rem;
         padding-top: 6rem;
+        
       }
 }
 
@@ -76,6 +80,9 @@
   &:hover {
     color: rgba(0, 123, 94, 0.75); /* Adjust the opacity or color as needed */
   }
+  display: flex;
+  justify-content: center;
+  text-align: center;
 
 }
 
