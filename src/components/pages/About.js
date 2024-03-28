@@ -19,7 +19,7 @@ const About = () => {
         <img src='/images/pfc_pic.jpg' alt='' className='profile-img'></img>
         </div>
        <h2 className='about-name'>Jeff Howard, Overseer-(380)710-3414<br/>
-Andrea Moreland- (912)308-6784<br/>
+Andrea Moreland<br/>
 Push for Christ International Ministries
 </h2>
 </div>
