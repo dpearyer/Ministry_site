@@ -40,7 +40,7 @@ const Contact = () => {
 
                 </div>
                 <input type="text" name="name" placeholder="Your Name" className="contactp-inputs" required></input>
-                <input type="email" email="name" placeholder="Your Email" className="contactp-inputs" required></input>
+                <input type="email" name="email" placeholder="Your Email" className="contactp-inputs" required></input>
                 <textarea name="message" placeholder="Your Message(Once you submit, your message has been sent!)" className="contactp-inputs" required></textarea>
                 <button type="submit">Submit <img src="/images/arrow_icon.png" alt=""></img></button>
                 <a href="/">
