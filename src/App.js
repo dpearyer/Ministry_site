@@ -4,10 +4,10 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
+import Live from './components/pages/Live';
 import Connect from './components/pages/Connect';
 import Contact from './components/pages/Contact';
 import Footer from './components/Footer';
-import Live from './components/pages/Live';
 function App() {
   return (
     <>
@@ -19,8 +19,9 @@ function App() {
           <Route path="/" element={<>
           <Home/>
           <About/>
+           <Live/>
           <Connect/>
-          <Live/>
+         
           </>} />
       
           <Route path="/contact" element={<Contact />} />

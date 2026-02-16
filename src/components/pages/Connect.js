@@ -17,20 +17,7 @@ const Connect = () => {
       </p>
     </div>
     <div className='card-container'>
-    <div className='card'>
-      <a
-        className='pink-border'
-        href="https://streamyard.com/" target="_blank" rel="noopener noreferrer"
-      >
-
-        <h2 className='card-h2'>Podcast </h2>
-
-        <p className='card-p'>
-        Listen to uplifting messages and insightful discussions on faith, life, and community in our podcast. Tune in for inspiration and guidance on your spiritual journey.
-        </p>
-      </a>
-
-    </div>
+ 
 
     <div className='card'>
       <a

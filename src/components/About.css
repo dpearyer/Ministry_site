@@ -8,26 +8,22 @@
   align-items: center;
   max-height: 95vh ;
   padding-left: 2rem;
-        padding-right: 2rem;
-        padding-top: 4rem;
-        padding-bottom: 10rem;
-        bottom: 50px;
+  padding-right: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 10rem;
+  bottom: 50px;
 
         
-        @media (min-width: 640px) {
-          padding-left: 1.5rem;
-          padding-right: 1.5rem;
-          padding-top: 3rem;
-          padding-bottom: 6rem;
-        }
-      
-     
-
-      
+  @media (min-width: 640px) {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+  }
 }
 
 .container h1{
-    font-family: "Rosarivo", cursive;
+  font-family: "Rosarivo", cursive;
   font-weight: 500;
   font-style: normal;
   color: black;
@@ -58,30 +54,30 @@
   align-items: center;
   justify-content: center;
   position: relative;
-
 }
 
 .profile-pic-container{
   align-items: center;
   position: relative;
   left: -30px;
-top: 50px;}
-
+  top: 50px;
+}
 
 .profile-img{
   width: 380px;
   height: 390px;
   border-radius: 10px;
- 
-  }
-.container .mission-h{
+}
 
+.container .mission-h{
   position: absolute;
-  top: 30px;
+  top: 100px;
   display: flex;
   justify-content: center;
   text-align: center;
   color: black;
+  
+  
 }
 
 .container .mission-p{
@@ -91,11 +87,7 @@ top: 50px;}
   text-align: center;
   font-size: 30px;
   left: -50px;
-  
 }
-
-
-
 
 h2,
 p {
@@ -116,12 +108,11 @@ p {
     "YTLC" 514,
     "YTUC" 712;
 
-    @media (min-width: 640px) {
-      h2, p {
-        font-size: 1.25rem; /* 36px (adjust as needed) */
-      }
+  @media (min-width: 640px) {
+    h2, p {
+      font-size: 1.25rem;
+    }
   }
-
 }
 
 .about-name{
@@ -149,8 +140,6 @@ p {
     "YTFI" 738,
     "YTLC" 514,
     "YTUC" 712;
-
-
 }
 
 .container .mission-p{
@@ -160,13 +149,17 @@ p {
   align-items: center;
   justify-content: center;
   margin: 0 100px 0 0;
-  background-color: #F0E0C5;
+  background-color: white;
   padding: 20px 20px;
   border-radius: 10px;
   width: 490px;
   font-size: 20px;
   height: 349px;
   position: relative;
+}
 
- 
-} 
+section #about{
+  background-color: #F0E0C5;
+  width: 100%;
+  height: 100%;
+}
